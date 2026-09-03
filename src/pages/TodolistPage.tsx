@@ -23,14 +23,14 @@ export default function TodolistPage() {
     id: "3",
     title: "Deploy app",
     description: "Push project to GitHub Pages",
-    isDone: false,
+    isDone: true,
   },
 ];
   return (
     <div className="container-fluid min-vh-100">
       <div className="row h-100">
         {/* ── 2) Sidebar (รับ props userName, type) ─────────────────────────── */}
-        <SideBar userName="Supapit Chaitan" Type="Admin"/>
+        <SideBar userName="Supapit" Type="Admin"/>
         
 
         <div className="col-10 p-0 d-flex flex-column min-vh-100">
